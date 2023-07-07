@@ -24,6 +24,10 @@ body{
 }
 
 .card-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     font-size: medium;
     color: #fff;
 }
@@ -118,6 +122,18 @@ body{
     text-align: right;      
 }
 
+.minmax1{
+    margin-bottom: 10px;
+}
+
+.minmax2{
+    margin-bottom: 10px;
+}
+
+.minmax3{
+    margin-bottom: 10px;
+}
+
 .additionalInfo{
     font-size: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -129,3 +145,4 @@ body{
     padding: 40px 35px;
     text-align: center;
 }
+
